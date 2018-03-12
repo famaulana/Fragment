@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.sch.smktelkom_mlg.www.fragment_farhan.Latihan2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Pilihan Fragment"
+        android:textColor="#FF22"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/multiple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="42dp"
+        android:onClick="multiple"
+        android:text="Multipel Fragment" />
+
+    <Button
+        android:id="@+id/FragmentPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/multiple"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:onClick="multiple"
+        android:text="Fragment View Pager" />
+
+    <Button
+        android:id="@+id/FragmentDrawer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FragmentPager"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:onClick="multiple"
+        android:text="Fragment Menu Drawer" />
+
+</LinearLayout>
